@@ -1,9 +1,9 @@
-import { createApp } from "vue";
+import "reflect-metadata";
+import {createApp} from "vue";
 import App from "./App.vue";
-import router from "./router";
-import store from "./store";
+import router from "@/Share/Infrastructure/Router/router";
+import "@/Context/HomeContext/Infrastructure/Router/router";
 
 createApp(App)
-  .use(store)
-  .use(router)
-  .mount("#app");
+    .use(router)
+    .mount("#app");
