@@ -1,0 +1,14 @@
+.layout {
+
+  height: 100%;
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+
+  .card-content {
+    width: 100%;
+    max-width: 700px;
+  }
+
+}

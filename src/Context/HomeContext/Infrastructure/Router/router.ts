@@ -1,6 +1,5 @@
 import router from "@/Share/Infrastructure/Router/router";
-import Home from "@/views/Home.vue";
-import About from "@/views/About.vue";
+import Home from '@/Context/HomeContext/Application/View/Home/Home.vue'
 
 router.addRoute('/',
     {
