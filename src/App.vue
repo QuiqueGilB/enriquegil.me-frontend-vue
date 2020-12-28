@@ -7,6 +7,8 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html, body, #app{
   margin: 0;
@@ -16,10 +18,6 @@ html, body, #app{
 }
 
 #app {
-  /*font-family: Avenir, Helvetica, Arial, sans-serif;*/
-  /*-webkit-font-smoothing: antialiased;*/
-  /*-moz-osx-font-smoothing: grayscale;*/
-  /*text-align: center;*/
-  /*color: #2c3e50;*/
+  font-family: Nunito, Roboto, Arial, sans-serif;
 }
 </style>

@@ -1,4 +1,7 @@
 .sidebar {
+  display: flex;
+  flex-direction: column;
+
   icon {
     font-size: 1rem;
     width: 100px;
