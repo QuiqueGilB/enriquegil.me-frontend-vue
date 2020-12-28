@@ -1,5 +1,6 @@
 const TYPES = {
-    translatorInterface: Symbol('translatorInterface')
+    translatorInterface: Symbol('translatorInterface'),
+    aboutClientInterface: Symbol('aboutClientInterface')
 }
 
 export default TYPES;

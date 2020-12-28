@@ -6,7 +6,11 @@
 
 import {Options, Vue} from "vue-class-component";
 
-@Options({})
+@Options({
+  props: {
+    title: String
+  }
+})
 export default class Card extends Vue {
 
 }

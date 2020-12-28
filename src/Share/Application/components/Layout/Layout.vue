@@ -13,6 +13,9 @@ import Sidebar from "@/Share/Application/components/Layout/components/Sidebar/Si
     PhotoProfile,
     Card,
     Sidebar
+  },
+  props: {
+    title: String
   }
 })
 export default class Layout extends Vue {
