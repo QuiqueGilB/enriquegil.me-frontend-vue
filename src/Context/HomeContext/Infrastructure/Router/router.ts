@@ -3,7 +3,7 @@ import Home from '@/Context/HomeContext/Application/View/Home/Home.vue'
 
 router.addRoute('/',
     {
-        path: "/",
+        path: "/home",
         name: "Home",
         component: Home
     });

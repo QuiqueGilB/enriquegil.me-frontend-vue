@@ -9,6 +9,17 @@
     display: flex;
     flex: 1 1 0;
     flex-direction: column;
+
+    .main {
+      display: flex;
+      flex: 1 1 0;
+      flex-direction: column;
+    }
+
+    .footer {
+      text-align: right;
+    }
+
   }
 
 
